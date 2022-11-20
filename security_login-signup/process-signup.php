@@ -1,5 +1,5 @@
 <?php
-//prompt an alert if not filled in
+//prompt an alert if not filled in properly*
 if (empty($_POST["name"])) {
     echo '<script>alert("Name is required")</script>';
 }
