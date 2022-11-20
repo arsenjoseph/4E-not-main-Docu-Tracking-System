@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Login</title>
     <meta charset="UTF-8">
 	
-
+    <!--intended for front end-->
     <link rel="stylesheet" href="">
 </head>
 <body>
