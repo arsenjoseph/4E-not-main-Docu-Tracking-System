@@ -46,6 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     
     <h1>Login</h1>
     
+    <!-- Conditional to check the credentials -->
     <?php if ($is_invalid): ?>
         <em>Invalid login</em>
     <?php endif; ?>
