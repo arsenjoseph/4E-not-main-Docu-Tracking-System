@@ -50,6 +50,7 @@ if ($stmt->execute()) {
     
 } else {
     
+    //will prompt if found similar emails on the database
     if ($mysqli->errno === 1062) {
         die("email already taken");
     } else {
